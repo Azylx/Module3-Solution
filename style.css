@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header-nav{
+    background-color: #c8d1d3 ;
+}
+
+div > a {
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: 45px !important;
+    padding-left: 45px !important;
+    font-weight: 600 !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px !important;
+    padding: 40px 0;
+    color: black !important;
+    font-weight: 600 !important;
+    margin-bottom: 0 !important;
+}
+
+h3{
+    font-size: 28px !important;
+    text-align: center;
+    padding: 20px 0 5px 0;
+    background-color: #c8d1d3;
+    color: black !important;
+    font-weight: 600 !important;
+    margin-bottom: 0 !important;
+}
+
+p{
+    background-color: #c8d1d3;
+    padding: 15px 20px;
+    line-height: 22px;
+    text-align: left !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    color: black !important;
+}
+
+article {
+    margin: 0 30px;
+    padding: 10px;
+}
+
+.container-fluid{
+    border: 3px solid black;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
+a:hover {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.navbar-brand{
+    height: 0 ;
+}
+
+#nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  
+  .navbar-default .navbar-toggle {
+    background-color: #ddd;
+    margin-top: -62px;
+  }
+
+  .navbar-default .navbar-collapse {
+    background-color:#c0b0e7;
+}
+
+.Food{
+    display: none;
+}
+
+li{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+ /** Media Query **/
+@media (min-width: 1200px) {
+
+}
+
+/** Medium Devices **/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** Small devices only **/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/** Extra small devices only **/
+@media (max-width: 767px) {
+  /* Header */
+  .Food{
+    display: block;
+    }
+  
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+}
